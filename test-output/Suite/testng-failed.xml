@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="4" name="Test(failed)">
+    <classes>
+      <class name="test.HeartRecipes">
+        <methods>
+          <include name="recipeScrappingSouthIndian"/>
+        </methods>
+      </class> <!-- test.HeartRecipes -->
+      <class name="test.HealthRecipes">
+        <methods>
+          <include name="healthyRecipeScrappingSouthIndian"/>
+        </methods>
+      </class> <!-- test.HealthRecipes -->
+      <class name="test.DiabeticRecipesTest">
+        <methods>
+          <include name="recipeScrappingSouthIndian"/>
+        </methods>
+      </class> <!-- test.DiabeticRecipesTest -->
+      <class name="test.QuickRecipes">
+        <methods>
+          <include name="recipeScrappingSouthIndian"/>
+        </methods>
+      </class> <!-- test.QuickRecipes -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
